@@ -1,0 +1,12 @@
+Source: pahomqttc
+Maintainer: Leon Anavi 
+Build-Depends: debhelper (>= 10.2.5)
+Standards-Version: 10.2.5
+Section: utils
+
+Package: pahomqttc
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Eclipse Paho MQTT
+ Provides MQTT C Client.
